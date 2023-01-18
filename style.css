@@ -7,9 +7,9 @@ body{
 }
 
 :root{
-    --color-primary: #000000;
-    --color-secondary: #ffffff;
-    --color-border: #ffffff34;
+    --color-primary: rgb(33, 34, 34);
+    --color-secondary: rgb(255, 196, 0);
+    --color-border: #e6888834;
     --font-staat: 'Staatliches', cursive;
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
@@ -93,7 +93,7 @@ body{
 
 
 .site-banner .banner-area{
-    background: url(https://images.unsplash.com/photo-1468608374703-abdfab03d1bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat;
+    background: url(https://res-3.cloudinary.com/simpleview/image/upload/v1/clients/columbus/09736_hr_dbf2d9bf-bc88-265e-1772d7e94308f95d.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -109,13 +109,12 @@ body{
 }
 
 .site-banner .banner-area .author .author-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 500px;
+    height: 350px;
     margin: auto;
-    background: url(./assets/about.jpg) no-repeat;
-    background-size: 200%;
-    background-position: 40% 0;
+    background: url(./assets/self_me.jpeg) no-repeat;
+    background-size: 50%;
+    background-position: 40% 40%;
 }
 
 
@@ -129,3 +128,24 @@ body{
 }
 
 /* #site-main */
+
+/* skill main */
+.main-hub{
+   text-align: center;
+   color: var(--color-primary) ;
+   background-color: #ffff;
+   display: flex;
+   flex-direction: column;
+   -ms-flex-align: center;
+
+}
+.Word {
+    padding: 60px 60px 20px 50px;
+    margin: 10px 0px 60px 10px;
+}
+.sub-Zero {
+    padding: 40px;
+}
+.cloumn {
+justify-content: center;
+}
