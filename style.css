@@ -91,7 +91,6 @@ body{
 
 /* site-main */
 
-
 .site-banner .banner-area{
     background: url(https://res-3.cloudinary.com/simpleview/image/upload/v1/clients/columbus/09736_hr_dbf2d9bf-bc88-265e-1772d7e94308f95d.jpg) no-repeat;
     background-size: cover;
@@ -114,7 +113,7 @@ body{
     margin: auto;
     background: url(./assets/self_me.jpeg) no-repeat;
     background-size: 50%;
-    background-position: 40% 40%;
+    background-position: 0% 40%;
 }
 @media only screen and (max-width: 500px) {
     .author-img {
